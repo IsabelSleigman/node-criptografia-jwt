@@ -1,0 +1,19 @@
+{
+  "name": "criptografia-jwt",
+  "version": "1.0.0",
+  "description": ".Conheça a história da criptografia",
+  "main": "cifra.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsabelSleigman/node-criptografia-jwt.git"
+  },
+  "author": "Isabel Sleigman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsabelSleigman/node-criptografia-jwt/issues"
+  },
+  "homepage": "https://github.com/IsabelSleigman/node-criptografia-jwt#readme"
+}
