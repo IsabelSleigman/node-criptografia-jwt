@@ -12,8 +12,12 @@
   },
   "author": "Isabel Sleigman",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/IsabelSleigman/node-criptografia-jwt/issues"
   },
-  "homepage": "https://github.com/IsabelSleigman/node-criptografia-jwt#readme"
+  "homepage": "https://github.com/IsabelSleigman/node-criptografia-jwt#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
 }
