@@ -9,3 +9,12 @@ const cifra = createCipheriv('aes256', chave , vi)
 const mensagemCifrada = cifra.update(mensagem, 'utf-8', 'hex') + cifra.final('hex')
 
 console.log(mensagemCifrada)
+
+// transmição ------ chave, vi, mensagem
+
+// Decifrar a mesangem
+
+const decifra = createDecipheriv('aes256', chave, vi)
+const mensagemDecifrada = decifra.update(mensagemCifrada, 'hex', 'utf-8') + decifra.final('utf-8')
+
+console.log(`Decifrado: ${mensagemDecifrada.toString('utf-8')}`)
